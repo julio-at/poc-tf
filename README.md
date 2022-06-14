@@ -31,7 +31,7 @@ environment, e.g:
 $ mv envs/tfvars.example envs/dev.tfvars
 ```
 
-Add to the file your Amazon credentials to the following lines:
+Inside the file, add your Amazon credentials to the following lines:
 
 ```
 aws_access_key_id = ""
