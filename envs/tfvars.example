@@ -1,0 +1,19 @@
+environment = "dev"
+
+aws_region = "us-east-1"
+
+aws_access_key_id = ""
+aws_secret_key = ""
+
+vpc_cidr = "10.0.0.0/16"
+
+private_subnets = ["10.0.1.0/24"]
+public_subnets = ["10.0.2.0/24"]
+
+aws_route53_record_name = "www"
+aws_route53_zone_name = "company.com."
+
+eks_worker_instance_types = [
+  "t2.micro",
+  "t2.small"
+]
